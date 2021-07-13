@@ -870,6 +870,10 @@ template {
   }
 }
 
+.fit-contain {
+  object-fit: contain;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -1580,6 +1584,18 @@ article p {
 
 .space-around {
   justify-content: space-around;
+}
+
+@media (max-width: 992px) {
+  .desktop-nav-wrapper {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .mobi-nav {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

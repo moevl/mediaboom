@@ -1,0 +1,10 @@
+.desktop-nav-wrapper{
+    @media (max-width: $pc-width){
+        display: none;
+    }
+}
+.mobi-nav{
+    @media (min-width: $pc-width){
+        display: none;
+    }
+}
