@@ -1,0 +1,24 @@
+<div class="flex mar-top-100 body-width">
+<h2 class="section-title ">Các loại phòng</h2>
+<p class="link-primary underline-gradient">Xem tất cả</p>
+</div>
+<div class=" flex-stack-imbalance best-examples body-width ">
+    
+        <? for (item of bestExamples){ ?>
+        <div class="best-examples-item wide-on-mobile relative">
+            <img class="best-examples-img" src="<?= item.img ?>" alt="">
+            <div class="best-examples-description absolute ">
+                <h3 class="best-examples-title">
+                    <?= item.title ?>
+                </h3>
+                <p class="best-examples-p">
+                    
+                    <?= item.description ?>
+                </p>
+                
+            </div>
+        </div>
+           <? } ?>
+ 
+    
+</div>

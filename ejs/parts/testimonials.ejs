@@ -1,0 +1,47 @@
+<section class="body-width">
+<div class="glide testimonials bg-gradient-white">
+  <div class="glide__track" data-glide-el="track">
+    <ul class="glide__slides">
+
+
+
+      <? for ( item of testimonials) { ?>
+
+      <li class="glide__slide">
+
+        <div class="flex  space-around">
+          <div class="flex pad-50-0 width-30-percent wide-on-mobile testimonials-graphic">
+            <img src="<?= item.img ?>" alt="" class=" round square-200 mar-auto  testimonials-img">
+            
+          </div>
+          <div class="wide-on-mobile width-60-percent pad-50-then-shrink text-xl-then-shrink testimonials-text">
+            <i class="fa fa-quote-left "></i>
+            
+            <p class="pad-20-then-shrink">
+              <?= item.review ?>
+            </p>
+            <p class="text-center italic">
+              <?= item.name ?>
+            </p>
+            <i class="fa fa-quote-right"></i>
+          </div>
+        </div>
+      </li>
+
+      <? } ?>
+
+    </ul>
+  </div>
+  <div class="glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+      < </button>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir=">"> > </button>
+  </div>
+
+  <div class="glide__bullets" data-glide-el="controls[nav]">
+    <button class="glide__bullet" data-glide-dir="=0"></button>
+    <button class="glide__bullet" data-glide-dir="=1"></button>
+    <button class="glide__bullet" data-glide-dir="=2"></button>
+  </div>
+</div>
+</section>

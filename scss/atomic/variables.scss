@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700;800;900&family=Mulish:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@0;1&family=Playfair+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Cormorant+Upright:wght@400;500;600;700&family=Grenze+Gotisch:wght@300;400&family=Pacifico&display=swap');
+
+
+$serif: Bitter, Helvetica, Arial, sans-serif;
+$sans-serif: Mulish, Helvetica, Arial, sans-serif;
+$main-font-family: $serif;
+$font-family-display: 'Playfair Display SC',Helvetica, Arial, sans-serif;
+
+$font-size-main: 15px;
+
+$mobile-width: 600px;
+$small-mobile-width: 320px;
+$tablet-width: 768px;
+$pc-width: 992px; 
+$large-pc-width: 1200px;
+
+
+$light-gray: #eaeaea;
+$off-white:#eeeeef;
+
+$color-text-dark: #000;
+$color-text-main: #000;
+
+$color-accent-dark: #002f4c;
+$color-accent-light: #00a3cc;
+
+$color-main-link:  #26ade0;
+
+$color-gradient-background: linear-gradient(
+    90deg
+    ,#b4dcf9,#c8fff7);
+$color-gradient-underline:    linear-gradient(
+    90deg
+    , #1d8dde, #b1f5eb, #379ab1);
+ 
+
+
+

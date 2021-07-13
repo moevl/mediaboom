@@ -1,0 +1,25 @@
+.bg-white{
+    background: #fff;
+}
+
+.bg-off-white{
+    background: $off-white;
+}
+
+.box-shadow{
+
+    box-shadow: 0 0 53px rgb(0 0 0 / 10%), 0px 0px 6px rgb(0 0 0 / 5%);
+    
+    
+}
+
+.bg-gradient-white{
+    background: linear-gradient(
+        141deg
+        , white, #ffffff7a);
+ }
+
+ 
+.bg-gradient-colorful{
+    background: $color-gradient-background;
+}

@@ -1,0 +1,35 @@
+.flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+}
+.flex-stack-imbalance{
+    display: flex;
+    flex-wrap: wrap;
+      
+    height: 1000px;
+    flex-direction: column;
+    justify-content: flex-start;
+    @media (max-width: $tablet-width){
+        display: block;
+        height: unset;
+    }
+} 
+.wide-on-mobile{
+        @media (max-width: $tablet-width){
+        width: 48.5%;
+    }
+    @media (max-width: $mobile-width){
+        width: 100%;
+    }
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-start{
+    align-items: flex-start;
+}
+.space-around{
+    justify-content: space-around;
+}

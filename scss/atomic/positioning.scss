@@ -1,0 +1,157 @@
+.mar-auto{
+    margin: auto; 
+    
+}
+.mar-auto-0{
+    margin: auto 0;
+}
+.mar-top-10{
+    margin-top: 10px;
+}
+.mar-left-10{
+    margin-left: 10px;
+}
+.mar-bot-10{
+    margin-bottom: 10px;
+}
+.mar-left-20{
+    margin-left: 20px;
+}
+.mar-top-20{
+    margin-top: 20px;
+}
+
+.mar-bot-20{ margin-bottom: 20px}
+.mar-bot-25{
+    margin-bottom: 25px;
+}
+.mar-top-25{
+    margin-top: 25px;
+}
+.mar-bot-30{ margin-bottom: 30px}
+.mar-50-then-shrink{
+    margin: 50px;
+    @media (max-width: $mobile-width){
+        margin: 20px;
+    }
+}
+.mar-top-50{
+    margin-top: 50px;
+}
+.mar-bot-50{
+    margin-bottom: 50px;
+}
+.mar-top-100{
+    margin-top: 100px;
+}
+
+.mar-top-minus-70{
+    margin-top: -70px;
+ }
+
+
+
+
+.pad-10{
+    padding: 10px;
+}
+.pad-0-10{
+    padding: 0 10px;
+}
+.pad-top-10{
+    padding-top: 10px
+}
+.pad-bot-10{
+    padding-bottom: 10px
+}
+.pad-right-10{
+    padding-right: 10px
+}
+
+.pad-left-10{
+    padding-left: 10px;
+}
+.pad-20{
+    padding: 20px;
+}
+.pad-0-20{
+    padding:0  20px;
+}
+.pad-20-then-shrink{
+    padding: 20px;
+    @media (max-width: $mobile-width){
+        padding: 0;
+        }
+}
+.pad-0-20{
+    padding: 0 20px;
+}
+.pad-left-20{
+    padding-left: 20px;
+}
+
+.pad-right-20{
+    padding-right: 20px;
+}
+.pad-50{
+    padding:  50px;
+}
+.pad-50-then-shrink{
+    padding: 50px;
+    @media (max-width: $mobile-width){
+    padding: 20px;
+    }
+}
+.pad-0-50{
+    padding: 0 50px;
+}
+
+.pad-50-0{
+    padding: 50px 0;
+}
+.pad-top-50{
+    padding-top: 50px;
+}
+.top-30{
+    top: 30px;
+}
+
+.left-0{
+    left: 0;
+}
+.left-10{
+    left: 10px;
+}    
+.bottom-0{
+    bottom: 0;
+}
+.bottom-10{
+    bottom: 10px;
+}
+.bottom-20{
+    bottom: 20px;
+}
+
+
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
+.display-block{
+    display: block;
+}
+
+.inline-block{
+    display: inline-block;
+}
+.float-right{
+    float: right;
+}  
+ .parallax{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }

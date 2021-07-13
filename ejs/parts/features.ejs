@@ -1,0 +1,17 @@
+<section class="body-width">
+
+
+    <div class="flex features ">
+        <? for (item of features) { ?>
+       <div class=" wide-on-mobile features-item box-shadow">
+           <div class="features-icon">
+               <img class="features-icon-image" src="<?= item.image ?>" alt="">
+           </div>
+           <div class="features-text">
+            <h3 class="features-title"><?= item.title ?></h3>
+            <p class="features-content"><?= item.content ?></p>
+        </div>
+       </div>
+       <? }  ?>
+    </div>
+</section>
