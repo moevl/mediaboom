@@ -1,0 +1,119 @@
+<section class="bg-black">
+    <div class="container  text-white py-20 pl-5 mx-auto">
+        <div class="flex">
+            <div class="w-1/2">
+                <h2 class="title-section mb-5 text-left">Các thành tích đạt được</h2>
+                <p class=" ">Thành lập vào năm 1999, chúng tôi đã làm việc với trên 200 khách hàng, hơn 2000
+                    dự án, giúp các đối
+                    tác
+                    của
+                    mình gia tăng doanh thu và hiệu quả làm việc nhanh chóng</p>
+            </div>
+            <div class="flex flex-wrap justify-between w-1/2">
+                <?
+ for (let milestone of milestones){
+     ?>
+                <div class="w-1/2 pb-5 text-center">
+                    <p class=" text-4xl font-bold font-serif text-accent">
+                        <?- milestone.number ?>
+                    </p>
+                    <p class="uppercase">
+                        <?- milestone.content ?>
+                    </p>
+                </div>
+
+                <?
+ }
+ ?>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="">
+
+    <div class="mx-auto my-20 container">
+        <h2 class="title-section my-10 text-center"> Sản phẩm và dịch vụ </h2>
+        <p class="text-center mb-10 max-w-md mx-auto">Công ty chúng tôi đem đến những sản phẩm và dịch vụ tốt nhất, mang
+            lại
+            trải nghiệm
+            hoàn
+            toàn
+            tuyệt vời cho khách hàng</p>
+
+        <div class="flex">
+            <?
+        for (let service of services){
+            ?>
+            <div class="px-2">
+                <img src="<?- service.img ?>" alt="">
+                <div class="mt-5"></div>
+                <h3 class="title-news">
+                    <?- service.title ?>
+                </h3>
+                <div class="mt-3"></div>
+                <p class="mr-5">
+                    <?- service.content ?>
+                </p>
+                <div class="mt-3"></div>
+                <button class="button-primary block"> Xem tất cả </button>
+            </div>
+
+            <?
+        }
+        ?>
+        </div>
+
+    </div>
+
+</section>
+<section class="bg-gray-100">
+    <div class="mx-auto">
+
+
+        <h2 class="text-center py-16 title-section">Đối tác</h2>
+        <div class="flex flex-wrap justify-between">
+            <?
+for (let partner of partners){
+    ?>
+            <div class="w-1/5 mb-10">
+                <img class="w-24 mx-auto" src="<?- partner.img ?>" alt="">
+            </div>
+            <?
+}
+?>
+
+        </div>
+    </div>
+</section>
+<section>
+    <h2 class="title-section text-center my-10">Nổi bật</h2>
+    <div class="container mb-14 justify-between flex flex-wrap mx-auto">
+        <?
+        
+     for (let post  of posts){
+        ?>
+        <div class="w-1/3 p-2">
+            <img class="w-full h-52 object-cover rounded-sm" src="<?- post.img ?>" alt="">
+            <h3 class="title-news mt-6 mr-2 ">
+                <?- post.title ?>
+            </h3>
+        </div>
+
+        <?
+ }
+ ?>
+    </div>
+</section>
+<section class="bg-black">
+
+
+    <div class="container  py-16 text-white text-center text-bold mx-auto">
+        <p class="tracking-wide mb-10 text-2xl font-semibold">Bạn muốn cải thiện tỉ lệ chuyển đổi và doanh thu?</p>
+
+        <button class="button-primary">Đăng ký tư
+            vấn miễn
+            phí</button>
+
+    </div>
+
+</section>

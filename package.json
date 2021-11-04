@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch css-parts/main.scss style.css",
+    "tailwind": "tailwindcss build -i css-parts/atomic/tailwind-core-raw.css -o css-parts/atomic/tailwind-core-built.css",
+    "node": "node ejs.config.js",
+    "nodemon": "nodemon ejs.config.js -e js,ejs,json"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +16,7 @@
     "mongodb": "^3.6.9",
     "mysql": "^2.18.1",
     "pug": "^3.0.2",
-    "supervisor": "^0.12.0"
+    "supervisor": "^0.12.0",
+    "tailwindcss": "^2.2.17"
   }
 }

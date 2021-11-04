@@ -1,0 +1,45 @@
+.button-primary{
+    
+    @extend     .py-3;
+    @extend       .px-5;
+    @extend      .bg-accent;
+    @extend .text-sm;
+    @extend .tracking-wide;
+    @extend .text-white;
+    @extend .uppercase;
+    @extend .font-semibold;
+}
+.title-news{
+    @extend .uppercase;
+    // @extend  .font-light;
+    @extend .text-2xl;
+    @extend .tracking-wide;
+    @extend .text-accent;
+}
+ .title-section{
+@extend .font-serif;
+@extend .text-4xl;
+@extend .italic;
+
+ }
+
+
+.container {
+ 
+
+@media (max-width: 767px){
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+@media (min-width: 768px){
+    width: 750px ;
+}
+  @media (min-width: 992px){
+    width: 970px ;
+}
+   @media (min-width: 1200px){
+    width: 1170px ;
+}
+ 
+}
