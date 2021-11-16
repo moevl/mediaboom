@@ -7,7 +7,7 @@
     "sass": "sass --watch css-parts/main.scss style.css",
     "tailwind": "tailwindcss build -i css-parts/atomic/tailwind-core-raw.css -o css-parts/atomic/tailwind-core-built.css",
     "node": "node ejs.config.js",
-    "nodemon": "nodemon ejs.config.js -e js,ejs,json"
+    "nodemon": "nodemon ejs.config.js -e js,ejs,json,css,scss"
   },
   "author": "",
   "license": "ISC",

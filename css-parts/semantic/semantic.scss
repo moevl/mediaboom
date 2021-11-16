@@ -1,5 +1,6 @@
 .button-primary{
-    
+    box-sizing: border-box;
+    max-height: 44px;
     @extend     .py-3;
     @extend       .px-5;
     @extend      .bg-accent;
@@ -8,6 +9,14 @@
     @extend .text-white;
     @extend .uppercase;
     @extend .font-semibold;
+    &:hover{
+        background: none;
+        
+        
+        @extend .border-accent;
+        @extend .text-accent;
+        @extend .border-2
+    }
 }
 .title-news{
     @extend .uppercase;
@@ -26,10 +35,12 @@
 
 .container {
  
-
-@media (max-width: 767px){
-    padding-right: 15px;
+padding-right: 15px;
     padding-left: 15px;
+    
+@media (max-width: 767px){
+    padding-right: 30px;
+    padding-left: 30px;
     
 }
 @media (min-width: 768px){
@@ -42,4 +53,14 @@
     width: 1170px ;
 }
  
+}
+.contact-form{
+    background-image:url("https://i.ibb.co/DWG02Vd/contact-form.jpg")
+}
+.slider{
+    background-image: url('https://i.ibb.co/84cCvHG/background.jpg')
+}
+.nav{
+    height: 80px;
+    margin-bottom: -80px;
 }

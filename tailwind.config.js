@@ -18,7 +18,8 @@ module.exports = {
         darkTrans: 'rgba(0,0,0,0.3)',
         dark: '#333',
         accent: '#e0bc75',
-        light: '999'
+        light: '#999',
+        grayText: '#aaa'
       }
     },
   },
